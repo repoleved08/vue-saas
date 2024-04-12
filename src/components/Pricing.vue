@@ -95,7 +95,9 @@ const pricingPlans = ref([
               {{ plan.description }}
             </p>
             <div class="mb-9 flex flex-col gap-[14px]">
-              <p class="text-base text-body-color dark:text-dark-6">{{ plan.features.users }}</p>
+              <p class="text-base text-body-color dark:text-dark-6">
+                
+                {{ plan.features.users }}</p>
               <p class="text-base text-body-color dark:text-dark-6">
                 {{ plan.features.components }}
               </p>

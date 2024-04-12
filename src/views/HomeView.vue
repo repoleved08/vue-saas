@@ -5,6 +5,7 @@ import Features from '@/components/Features.vue'
 import Pricing from '@/components/Pricing.vue'
 import Accordion from '@/components/Accordion.vue'
 import Contact from '@/components/Contact.vue'
+import sub from '@/components/sub.vue'
 
 </script>
 
@@ -15,4 +16,5 @@ import Contact from '@/components/Contact.vue'
     <Pricing />
     <Accordion />
     <Contact />
+    <sub/>
 </template>

@@ -33,6 +33,7 @@ const menus = ref([
 </script>
 
 <template>
+  
   <!-- ====== Footer Section Start -->
   <footer class="relative z-10 bg-white dark:bg-dark pt-20 pb-10 lg:pt-[120px] lg:pb-20">
     <div class="container mx-auto">
