@@ -62,7 +62,7 @@
         <a href="#" class="text-sm font-semibold leading-6 text-dark dark:text-white">Company</a>
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <RouterLink to="login" class="text-sm font-semibold leading-6 text-dark dark:text-white">Log in <span
+        <RouterLink to="/login" class="text-sm font-semibold leading-6 text-dark dark:text-white">Log in <span
             aria-hidden="true">&rarr;</span></RouterLink>
       </div>
     </nav>
@@ -106,9 +106,9 @@
                 class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-dark dark:text-white hover:bg-gray-50 dark:hover:bg-slate-700">Company</a>
             </div>
             <div class="py-6">
-              <a href="#"
-                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:hover:bg-slate-700">Log
-                in</a>
+              <RouterLink to="/login"
+                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-dark dark:text-white hover:bg-gray-50 dark:hover:bg-slate-700">Log
+                in</RouterLink>
             </div>
           </div>
         </div>
