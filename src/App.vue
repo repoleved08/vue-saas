@@ -1,20 +1,19 @@
-<template>
-  <Header />
-  <Hero />
-  <Logos />
-  <Features />
-  <Pricing />
-  <Accordion />
-  <Footer />
-  <RouterView />
-</template>
-
 <script setup>
+import { RouterLink, RouterView } from 'vue-router'
 import Header from '@/components/Header.vue'
-import Hero from '@/components/Hero.vue'
-import Logos from '@/components/Logos.vue'
-import Features from '@/components/Features.vue'
-import Pricing from '@/components/Pricing.vue'
-import Accordion from '@/components/Accordion.vue'
 import Footer from '@/components/Footer.vue'
+
 </script>
+
+<template>
+  <header>
+    <div>
+      <nav>
+        <Header />
+      </nav>
+    </div>
+  </header>
+ 
+  <RouterView />
+  <Footer />
+</template>
