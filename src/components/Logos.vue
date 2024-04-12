@@ -1,42 +1,48 @@
-<template>
-    <div class="bg-white dark:bg-dark py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 class="text-center text-lg font-semibold leading-8 text-dark dark:text-white">Trusted by the world’s
-                most innovative teams</h2>
-            <div
-                class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                    src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor"
-                    width="158" height="48" />
-                <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                    src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158"
-                    height="48" />
-                <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                    src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158"
-                    height="48" />
-                <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                    src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                    dark:src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg" alt="SavvyCal"
-                    width="158" height="48" />
-                <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                    :src="svgSrc"
-                    alt="Statamic" width="158" height="48" />
-            </div>
-        </div>
-    </div>
-</template>
-
 
 <script setup>
-import { ref, onMounted, computed } from 'vue';
+import { ref } from 'vue'
 
-const isDarkMode = ref(false);
-const lightModeSvgSrc = 'https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg';
-const darkModeSvgSrc = 'https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg';
-
-const svgSrc = computed(() => isDarkMode.value ? darkModeSvgSrc : lightModeSvgSrc);
-
-onMounted(() => {
-    isDarkMode.value = document.documentElement.classList.contains('dark');
-});
+const brandItems = ref([
+  {
+    image: 'https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg',
+    link: '#'
+  },
+  {
+    image: 'https://cdn.tailgrids.com/2.0/image/assets/images/brands/lineicons.svg',
+    link: '#'
+  },
+  {
+    image: 'https://cdn.tailgrids.com/2.0/image/assets/images/brands/uideck.svg',
+    link: '#'
+  },
+  {
+    image: 'https://cdn.tailgrids.com/2.0/image/assets/images/brands/ayroui.svg',
+    link: '#'
+  }
+])
 </script>
+
+<template>
+  <!-- ====== Brands Section Start -->
+  <section class="bg-white py-20 dark:bg-dark lg:py-[120px]">
+    <div class="container mx-auto">
+        <h2 class="text-center text-lg font-semibold leading-8 text-dark dark:text-white">Trusted by the world’s
+            most innovative teams</h2>
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <template v-for="(item, index) in brandItems" :key="index">
+              <a
+                :href="item.link"
+                class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+              >
+                <img :src="item.image" alt="image" class="w-full h-10" />
+              </a>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Brands Section End -->
+</template>
