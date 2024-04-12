@@ -4,6 +4,7 @@ import Logos from '@/components/Logos.vue'
 import Features from '@/components/Features.vue'
 import Pricing from '@/components/Pricing.vue'
 import Accordion from '@/components/Accordion.vue'
+import Contact from '@/components/Contact.vue'
 
 </script>
 
@@ -13,4 +14,5 @@ import Accordion from '@/components/Accordion.vue'
     <Features />
     <Pricing />
     <Accordion />
+    <Contact />
 </template>
