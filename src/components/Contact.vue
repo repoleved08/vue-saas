@@ -74,7 +74,7 @@
                 </div>
                 <div class="w-full">
                   <h4 class="mb-1 text-xl font-bold text-dark dark:text-white">Phone Number</h4>
-                  <p class="text-base text-body-color dark:text-dark-6">(+62)81 414 257 9980</p>
+                  <p class="text-base text-body-color dark:text-dark-6">(+254)71 40 004 81</p>
                 </div>
               </div>
               <div class="mb-8 flex w-full max-w-[370px]">
@@ -96,7 +96,7 @@
                 </div>
                 <div class="w-full">
                   <h4 class="mb-1 text-xl font-bold text-dark dark:text-white">Email Address</h4>
-                  <p class="text-base text-body-color dark:text-dark-6">info@yourdomain.com</p>
+                  <p class="text-base text-body-color dark:text-dark-6">techxtrasol.design@gmail.com</p>
                 </div>
               </div>
             </div>

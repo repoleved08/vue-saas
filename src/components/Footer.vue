@@ -85,7 +85,7 @@ const menus = ref([
                   </defs>
                 </svg>
               </span>
-              <span>+012 (345) 678 99</span>
+              <span>+254 (714) 000 481</span>
             </p>
           </div>
         </div>

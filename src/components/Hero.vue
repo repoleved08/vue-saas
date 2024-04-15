@@ -10,7 +10,7 @@
     </div>
     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-20">
       <div class=" sm:mb-12 sm:flex sm:justify-center">
-        
+
         <!-- start -->
         <!--
   twitter: @mannupaaji
@@ -21,19 +21,19 @@
         </div>
 
         <!-- Actual button code -->
-        <div class="mx-auto flex w-full max-w-lg items-center justify-center">
+        <div class="mx-auto flex  items-center justify-center">
           <div
-            class="relative z-10 flex w-full cursor-pointer items-center overflow-hidden rounded-full border border-slate-800 p-[1.5px]">
+            class="relative z-10 flex w-full cursor-pointer items-center overflow-hidden rounded-full border border-slate-800 dark:border-slate-600 p-[1.5px]">
             <div
               class="absolute inset-0 h-full w-full animate-rotate rounded-full bg-[conic-gradient(#0ea5e9_20deg,transparent_120deg)]">
             </div>
-            <div class="relative z-20 flex w-full rounded-[0.60rem] bg-slate-900 p-2">
+            <div class="relative z-20 flex w-full rounded-[0.60rem] bg-slate-100 dark:bg-slate-900 ">
               <div
-          class="relative rounded-full text-center justify-center px-3 py-1 text-sm leading-6 text-dark dark:text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-          Announcing our next move. <a href="#" class="font-semibold text-indigo-600"><span
-              class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>
-        </div>
-        
+                class="relative text-center justify-center px-2 py-1 text-sm leading-6 text-dark dark:text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                Announcing our next move. <a href="#" class="font-semibold text-indigo-600"><span
+                    class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
           Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <a href="#"
-            class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-dark dark:text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
+            class="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white dark:text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
             started</a>
           <a href="#" class="text-sm font-semibold leading-6 text-dark dark:text-white">Learn more <span
               aria-hidden="true">→</span></a>

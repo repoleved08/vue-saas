@@ -106,7 +106,7 @@
               </a>
               <p class="text-base text-body-color dark:text-dark-6">
                 <span class="pr-0.5">Not a member yet?</span>
-                <a href="javascript:void(0)" class="text-primary hover:underline"> Sign Up </a>
+                <RouterLink to="/signup" class="text-primary hover:underline"> Sign Up </RouterLink>
               </p>
               <div>
                 <span class="absolute top-1 right-1">

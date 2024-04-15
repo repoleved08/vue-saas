@@ -32,7 +32,7 @@
                 <div v-for="item in products" :key="item.name"
                   class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6  hover:bg-gray-50 dark:hover:bg-slate-700">
                   <div
-                    class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                    class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 dark:bg-gray-700 group-hover:bg-white group-hover:dark:bg-slate-900">
                     <component :is="item.icon" class="h-6 w-6 text-dark dark:text-white group-hover:text-indigo-600"
                       aria-hidden="true" />
                   </div>
